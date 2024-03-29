@@ -4,7 +4,7 @@ New attractive themes for frappe.
 
 For V-13 V-14
 
-## Usage
+## Installation.
 
 Step 1. Get theme from git using bench get-app command
 
