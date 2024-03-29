@@ -11,8 +11,8 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/switch_theme/css/switch_theme.css"
-# app_include_js = "/assets/switch_theme/js/switch_theme.js"
+app_include_css = "ap_theme.bundle.css"
+app_include_js = ["ap_theme.bundle.js"]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/switch_theme/css/switch_theme.css"
@@ -139,9 +139,9 @@ app_license = "MIT"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "switch_theme.event.get_events"
-# }
+override_whitelisted_methods = {
+	"frappe.core.doctype.user.user.switch_theme": "switch_theme.override.switch_theme"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
