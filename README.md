@@ -2,6 +2,8 @@
 
 New attractive themes for frappe.
 
+For V-13 V-14
+
 ## Usage
 
 Step 1. Get theme from git using bench get-app command
@@ -12,7 +14,7 @@ Step 2. Install app in your site using bench install-app command
 
 bench install-app --site site-name switch_theme
 
-bench build
+bench build --app switch_theme
 
 #### License
 
